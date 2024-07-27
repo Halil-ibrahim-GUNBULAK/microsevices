@@ -22,7 +22,7 @@ public class ProductController {
     @GetMapping("")
     public ResponseEntity<String> getMessageDetails() {
 
-        String message="bi";
+        String message="JEKİRDEK";
         return ResponseEntity.ok(message);
     }
     @GetMapping("/{productId}")
